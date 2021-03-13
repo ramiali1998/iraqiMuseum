@@ -1,0 +1,244 @@
+<html>
+    <head>
+            <title></title>
+         
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type ="text/css" href="st1.css">
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+             <script src="jsweb.js" ></script> 
+    
+    </head>
+ 
+<body id="bg1"  >
+    
+    <header>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-opcity">
+        <a class="navbar-brand" href="#">
+          <img id="logoCh" class="logo" src="logo-dark.png" width="30" height="30" class="d-inline-block align-top" alt="">
+   
+        </a>
+       
+        <label class="switch">
+
+            <input onclick="getValue1();" id="myCheckBox" type="checkbox">
+       
+            <span class="slider round "> </span>
+          </label>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a id="textbar" class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a id="ss" class="nav-link" href="vist.html">ticket <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a id="rre" style="color: white;"  class="nav-link" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a id="rre1" style="color: white;"  class="nav-link" href="contact.html">Contact us <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                      <a id="dds" style="color: white;"  class="nav-link" href="codeforiraq.html">CodeForiraq <span class="sr-only">(current)</span></a>
+                    </li>
+       
+              
+              </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class=" btn btn-dark" type="submit">Search</button>
+          </form>
+        </div>
+      
+      </nav>
+      
+    </header>
+    
+    <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0"></li>
+              <li data-target="#demo" data-slide-to="1" class="active" ></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item ">
+                <img src="https://www.nasnews.com/assets/uploads/2019/06/%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D9%81-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A.jpg" alt="iraqi Museum" >
+                <div class="carousel-caption ">
+                  <h3>National Museum of Iraq</h3>
+                  <p>description here</p>
+                </div>   
+              </div>
+              <div class="carousel-item active ">
+                <img  src="https://www.aljazeera.net/File/GetImageCustom/8a246e3e-06fd-423c-9ccd-dc0e05729e7b/1026/580" alt="iraqi Museum"  >
+                <div class="carousel-caption">
+                  <h3>National Museum of Iraq</h3>
+                  <p>description here</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.albayan.ae/polopoly_fs/1.2322145.1475814524!/image/image.jpg" alt="iraqi Museum" >
+                <div class="carousel-caption">
+                  <h3>National Museum of Iraq</h3>
+                  <p>description here</p>
+                </div>   
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+    <br>
+    <div id="tiketcard">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwa06iP63ajkrfyUB1gLYnoZ59DIstCS-74CgvqQe4wYwnpQ-8" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Ticket</h5>
+        <h5 class="card-title">10000 IQD</h5>
+        <p class="card-text">You can order an onlin Tickets from your home.</p>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+  Tickets order
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Tickets order</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+    
+          <label for="exampleFormControlInput1">Price</label>
+          <h4>10000 IQD</h4>
+    
+        <label for="exampleFormControlInput1">Number of persons over the age of 13 years</label>
+        <select id="txt1"  onchange="sum();" class="custom-select">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <label for="exampleFormControlInput1">Number Children (under 13)</label>
+        <select id="txt2" onchange="sum();"  class="custom-select">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <label for="exampleFormControlInput1">Number of Tickets</label>
+        <br>
+        <label id="ruslt1" for="exampleFormControlInput1">0</label>
+        <br> 
+        <label for="exampleFormControlInput1">Discount</label>
+        <br>
+        <label id="ruslt3" for="exampleFormControlInput1">0</label>
+        <br>
+        
+        <label for="exampleFormControlInput1">Total price</label>
+        <br>
+        <label id="ruslt2" for="exampleFormControlInput1">0</label>
+        <br>
+        <label for="exampleFormControlInput1">Order Time</label>
+        <br>
+        <label  id ="dd"for="exampleFormControlInput1"> </label>
+        <br>
+        <label for="exampleFormControlInput1">Expire Time</label>
+        <br>
+        <label  id ="dd1"for="exampleFormControlInput1"> </label>
+      
+       </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-dark">Pay</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+<div id="Roletiket"> 
+    <div id="tp1"   class="container mt-3">
+        <h3>Museum Rules</h3>
+ 
+        <ol>
+          <li>
+              The doors of the museum are open all week.
+          </li>
+          <li>
+              Visiting hours 8:00 am - 6:00 pm.
+          </li>
+          <li>
+              Children under the age of 13 have a discount of 60%.
+          </li>
+          <li>
+              Food is not allowed inside the museum.
+          </li>
+          <li>
+              School students enter for free.
+          </li>
+          <li>
+              You can use your ticket for three days then will be expired.
+          </li>
+
+        </ol>
+
+      </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>   
+  <br>
+  <br>
+  <br>   
+  <br>
+  <br>
+  <br>   
+   
+   
+  <footer class="page-footer font-small unique-color-dark pt-4">
+
+      
+      <!-- Copyright -->
+      <div id="tx1"   class="footer-copyright text-center py-3"> © 2019 Copyright :
+        <a  id="e"  style="color:white;" href="http://codeforiraq.herokuapp.com">codeforiraq</a>
+      </div>
+      <!-- Copyright -->
+    
+    </footer>
+         </body>
+</html>

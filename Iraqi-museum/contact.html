@@ -1,0 +1,204 @@
+<html>
+    <head>
+            <title></title>
+         
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type ="text/css" href="st1.css">
+            <meta charset="utf-8">
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="jsweb.js" ></script> 
+    
+    </head>
+ 
+<body id="bg1"  >
+    
+    <header>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-opcity">
+        <a class="navbar-brand" href="#">
+          <img id="logoCh" class="logo" src="logo-dark.png" width="30" height="30" class="d-inline-block align-top" alt="">
+     
+        </a>
+       
+        <label class="switch">
+
+            <input onclick="getValue1();" id="myCheckBox" type="checkbox">
+       
+            <span class="slider round "> </span>
+          </label>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a id="textbar" class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a id="ss" class="nav-link" href="vist.html">ticket <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a id="rre"  style="color: white;" class="nav-link" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a id="rre1" style="color: white;"  class="nav-link" href="contact.html">Contact us <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                      <a id="dds" style="color: white;"  class="nav-link" href="codeforiraq.html">CodeForiraq <span class="sr-only">(current)</span></a>
+                    </li>
+       
+              
+              </ul>
+        
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class=" btn btn-dark" type="submit">Search</button>
+          </form>
+        </div>
+      
+      </nav>
+      
+    </header>
+    
+    <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0"></li>
+              <li data-target="#demo" data-slide-to="1" class="active" ></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item ">
+                <img src="https://www.nasnews.com/assets/uploads/2019/06/%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D9%81-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A.jpg" alt="iraqi Museum" >
+                <div class="carousel-caption ">
+                  <h3>National Museum of Iraq</h3>
+                  <p>description here</p>
+                </div>   
+              </div>
+              <div class="carousel-item active ">
+                <img  src="https://www.aljazeera.net/File/GetImageCustom/8a246e3e-06fd-423c-9ccd-dc0e05729e7b/1026/580" alt="iraqi Museum"  >
+                <div class="carousel-caption">
+                  <h3>National Museum of Iraq</h3>
+                  <p>description here</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.albayan.ae/polopoly_fs/1.2322145.1475814524!/image/image.jpg" alt="iraqi Museum" >
+                <div class="carousel-caption">
+                  <h3>National Museum of Iraq</h3>
+                  <p>description here</p>
+                </div>   
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          
+          <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" method="post">
+                            <fieldset>
+                                <legend class="text-center header">Contact us</legend>
+                                <div class="form-group">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here.We will answer after 24 hour." rows="7"></textarea>
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn btn-dark btn-lg">Submit</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <div class="panel panel-default">
+                            <div class="text-center header">Our Location</div>
+                            <div class="panel-body text-center">
+                               
+                                <div id="tp1" >
+                                    <h4>Address</h4>
+                               
+                                   Iraq-Baghdad<br />
+                                Al-allawy<br />
+                                +964089930023<br />
+                                info@company.com<br />   
+                                <div class="container">
+                                  <div class="row">
+                              
+                                    <div>
+                                      <ul class="social-network social-circle">
+                                       <br>
+                                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a href="#" class="icoinstagram" title="instagram"><i class="fa fa-instagram"></i></a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                </div>
+                                <hr />
+                                <div id="map1" class="map">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <footer class="page-footer font-small unique-color-dark pt-4">
+
+      
+            <!-- Copyright -->
+            <div id="tx1"   class="footer-copyright text-center py-3"> © 2019 Copyright :
+              <a  id="e"  style="color:white;" href="http://codeforiraq.herokuapp.com">codeforiraq</a>
+            </div>
+            <!-- Copyright -->
+          
+          </footer>
+        </body>
+</html>
